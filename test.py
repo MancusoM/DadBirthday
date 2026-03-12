@@ -62,7 +62,8 @@ with nice_things:
 
     list_of_sayings =['Happy Birthday Dad! Youre such a great influence! Heres to another 75 years-Matt',
                       "Happy 75th Birthday to my wonderful husband! Celebrating you today and all the love, strength, and joy you bring to my life and to our family. I love you always.-Mom",
-                    "Happy birthday Dad! My quarter life twin birthday! Thanks for all the laughs and happiness over the years! Cant wait to celebrate you today and everyday love you-Julia"]
+                    "Happy birthday Dad! My quarter life twin birthday! Thanks for all the laughs and happiness over the years! Cant wait to celebrate you today and everyday love you-Julia",
+                    "Dear John,Happy Birthday to my favorite Sicilian brother-in-law and Birthday twin. Here’s to many more Italian meals and espressos together! Much love, Eileen"]
 
     for saying in list_of_sayings:
-        st.write(saying)
+        st.markdown(saying)
